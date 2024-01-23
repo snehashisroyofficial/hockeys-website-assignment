@@ -755,16 +755,43 @@
         </div>
       </section>
 
-      <section>
+      <section class="mb-12">
         <!-- container  -->
-        <div>
+        <div
+          class="mx-0 flex flex-col lg:flex-row lg:justify-around gap-7 items-center"
+        >
           <!-- left side area  -->
-          <div></div>
+          <div class="p-6 lg:p-12 border-2 space-y-6 lg:w-[474px]">
+            <!-- icons contact us 1 -->
+            <div
+              class="p-6 space-y-3 bg-green-100 border-2 border-green-200 w-[287px] lg:w-[374px] rounded-xl"
+            >
+              <img src="./Images/Group 1171275317.png" alt="calling" />
+              <p class="text-gray-500">Phone Number</p>
+              <h3 class="text-xl font-bold">(+62) 123-321-543</h3>
+            </div>
+            <!-- icons contact us 2 -->
+            <div
+              class="p-6 space-y-3 bg-yellow-100 border-2 border-yellow-200 w-[287px] lg:w-[374px] rounded-xl"
+            >
+              <img src="./Images/Group 1171275318.png" alt="calling" />
+              <p class="text-gray-500">Email us</p>
+              <h3 class="text-xl font-bold">(+62) 123-321-543</h3>
+            </div>
+            <!-- icons contact us 3 -->
+            <div
+              class="p-6 space-y-3 bg-blue-100 border-2 border-blue-200 w-[287px] lg:w-[374px] rounded-xl"
+            >
+              <img src="./Images/Group 1171275321.png" alt="calling" />
+              <p class="text-gray-500">Location</p>
+              <h3 class="text-xl font-bold">(+62) 123-321-543</h3>
+            </div>
+          </div>
 
           <!-- right side area  -->
-          <div class="space-y-6">
+          <div class="space-y-6 items-center lg:w-[672px]">
             <!-- text area 1 -->
-            <div class="flex gap-6">
+            <div class="flex flex-col lg:flex-row items-center gap-6">
               <div class="space-y-4">
                 <h3 class="text-xl font-bold">Your Name</h3>
                 <input
@@ -784,7 +811,9 @@
               </div>
             </div>
             <!-- text are 2 -->
-            <div class="flex gap-6">
+            <div
+              class="flex flex-col lg:flex-row items-center lg:flex-row gap-6"
+            >
               <div class="space-y-4">
                 <h3 class="text-xl font-bold">Subject</h3>
                 <input
@@ -805,21 +834,23 @@
             </div>
 
             <!-- typing area     -->
-            <div class="space-y-4">
-              <h3 class="text-xl font-bold">Subject</h3>
-              <textarea
-                class="w-[672px] border-2 p-5 rounded-xl outline-0"
-                name=""
-                id=""
-                rows="8"
-                placeholder="Write your message"
-              ></textarea>
+            <div class="flex items-center flex-col lg:flex-row">
+              <div class="space-y-4">
+                <h3 class="text-xl font-bold">Subject</h3>
+                <textarea
+                  class="w-[335px] lg:w-[672px] border-2 p-5 rounded-xl outline-0"
+                  name=""
+                  id=""
+                  rows="8"
+                  placeholder="Write your message"
+                ></textarea>
+              </div>
             </div>
 
             <!-- button  -->
             <div>
               <button
-                class="btn text-xl font-bold py-4 bg-base-color w-[672px] rounded-xl text-white"
+                class="btn btn-lg text-xl font-bold bg-base-color w-[335px] lg:w-[672px] rounded-xl text-white text-center"
               >
                 Send Message
               </button>

@@ -210,11 +210,11 @@
       </section>
 
       <!-- article posts  -->
-      <section class="pt-12 pb-24 border-dashed">
+      <section class="pt-12 lg:pb-24 pb-10 border-dashed">
         <!-- container  -->
-        <div class="flex gap-6">
+        <div class="flex flex-col lg:flex-row gap-6 items-center">
           <!-- card 1 -->
-          <div class="card flex-1 w-96 bg-base-100 shadow-xl image-full">
+          <div class="card lg:flex-1 w-96 bg-base-100 shadow-xl image-full">
             <figure>
               <img class="w-screen" src="./Images/2.png" alt="Shoes" />
             </figure>
@@ -234,7 +234,7 @@
             </div>
           </div>
           <!-- card 2 -->
-          <div class="card flex-1 w-96 bg-base-100 shadow-xl image-full">
+          <div class="card lg:flex-1 w-96 bg-base-100 shadow-xl image-full">
             <figure>
               <img class="w-screen" src="./Images/3.png" alt="Shoes" />
             </figure>
@@ -256,19 +256,20 @@
             </div>
           </div>
         </div>
+
         <div>
           <!-- card 3 -->
           <div
-            class="card flex-1 h-[450px] bg-base-100 shadow-xl image-full mt-6"
+            class="card lg:flex-1 lg:h-[450px] w-96 lg:w-auto mx-auto bg-base-100 shadow-xl image-full mt-6"
           >
             <figure>
-              <img class="w-screen" src="./Images/4.png" alt="Shoes" />
+              <img class="lg:w-screen" src="./Images/4.png" alt="Shoes" />
             </figure>
             <div class="card-body justify-end gap-3">
               <h2 class="card-title text-3xl font-extrabold">
                 Professional Program
               </h2>
-              <p class="flex-grow-0 font-medium w-3/4">
+              <p class="flex-grow-0 font-medium lg:w-3/4 w-auto">
                 Unlock peak performance with our elite Professional Program at
                 the hockey club. Elevate skills, strategic prowess, and
                 teamwork. Unleash your full potential on the ice with expert
@@ -290,7 +291,7 @@
       <section class="border-t-2 border-b-2 border-dashed py-8">
         <div class="text-center space-y-6">
           <h2 class="text-2xl xl:text-4xl font-extrabold">Our New Products</h2>
-          <p class="max-w-72 lg:max-w-2xl mx-auto">
+          <p class="max-w-1/2 lg:max-w-2xl mx-auto">
             Experience peak performance with our innovative hockey gear, crafted
             for the under-20 champions. Elevate your game with our latest
             arrivals!
@@ -299,14 +300,18 @@
       </section>
 
       <section>
-        <div class="grid grid-cols-2 grid-rows-3 gap-6">
+        <div class="grid lg:grid-cols-2 grid-cols-1 lg:grid-rows-3 gap-6 mx-5">
           <!-- card  1  -->
           <div
-            class="flex items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
+            class="flex flex-col lg:flex-row items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
           >
             <!-- left side area  -->
             <div>
-              <img src="./Images/5.png" alt="product" />
+              <img
+                class="w-[287px] lg:w-[180px]]"
+                src="./Images/5.png"
+                alt="product"
+              />
             </div>
             <!-- right side area  -->
             <div>
@@ -337,7 +342,7 @@
               </div>
 
               <!-- price area  -->
-              <div class="flex gap-5">
+              <div class="flex flex-col lg:flex-row lg:gap-5 gap-4">
                 <div>
                   <h2 class="text-[18px] font-extrabold text-base-color">
                     Price - $28.00
@@ -353,11 +358,15 @@
 
           <!-- card  2  -->
           <div
-            class="flex items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
+            class="flex flex-col lg:flex-row items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
           >
             <!-- left side area  -->
             <div>
-              <img src="./Images/6.png" alt="product" />
+              <img
+                class="w-[287px] lg:w-[180px]"
+                src="./Images/6.png"
+                alt="product"
+              />
             </div>
             <!-- right side area  -->
             <div>
@@ -387,7 +396,7 @@
               </div>
 
               <!-- price area  -->
-              <div class="flex gap-5">
+              <div class="flex flex-col lg:flex-row lg:gap-5 gap-4">
                 <div>
                   <h2 class="text-[18px] font-extrabold text-base-color">
                     Price - $47.00
@@ -403,11 +412,15 @@
 
           <!-- card  3  -->
           <div
-            class="flex items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
+            class="flex flex-col lg:flex-row items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
           >
             <!-- left side area  -->
             <div>
-              <img src="./Images/7.png" alt="product" />
+              <img
+                class="w-[287px] lg:w-[180px]"
+                src="./Images/7.png"
+                alt="product"
+              />
             </div>
             <!-- right side area  -->
             <div>
@@ -437,7 +450,7 @@
               </div>
 
               <!-- price area  -->
-              <div class="flex gap-5">
+              <div class="flex flex-col lg:flex-row lg:gap-5 gap-4">
                 <div>
                   <h2 class="text-[18px] font-extrabold text-base-color">
                     Price - $10.00
@@ -453,11 +466,15 @@
 
           <!-- card  4  -->
           <div
-            class="flex items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
+            class="flex flex-col lg:flex-row items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
           >
             <!-- left side area  -->
             <div>
-              <img src="./Images/8.png" alt="product" />
+              <img
+                class="w-[287px] lg:w-[180px]"
+                src="./Images/8.png"
+                alt="product"
+              />
             </div>
             <!-- right side area  -->
             <div>
@@ -487,7 +504,7 @@
               </div>
 
               <!-- price area  -->
-              <div class="flex gap-5">
+              <div class="flex flex-col lg:flex-row lg:gap-5 gap-4">
                 <div>
                   <h2 class="text-[18px] font-extrabold text-base-color">
                     Price - $18.00
@@ -503,11 +520,15 @@
 
           <!-- card  5  -->
           <div
-            class="flex items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
+            class="flex flex-col lg:flex-row items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
           >
             <!-- left side area  -->
             <div>
-              <img src="./Images/9.png" alt="product" />
+              <img
+                class="w-[287px] lg:w-[180px]"
+                src="./Images/9.png"
+                alt="product"
+              />
             </div>
             <!-- right side area  -->
             <div>
@@ -538,7 +559,7 @@
               </div>
 
               <!-- price area  -->
-              <div class="flex gap-5">
+              <div class="flex flex-col lg:flex-row lg:gap-5 gap-4">
                 <div>
                   <h2 class="text-[18px] font-extrabold text-base-color">
                     Price - $55.00
@@ -554,11 +575,15 @@
 
           <!-- card  6  -->
           <div
-            class="flex items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
+            class="flex flex-col lg:flex-row items-center gap-5 p-6 rounded-2xl border-2 border-gray-300"
           >
             <!-- left side area  -->
             <div>
-              <img src="./Images/10.png" alt="product" />
+              <img
+                class="w-[287px] lg:w-[180px]"
+                src="./Images/10.png"
+                alt="product"
+              />
             </div>
             <!-- right side area  -->
             <div>
@@ -589,7 +614,7 @@
               </div>
 
               <!-- price area  -->
-              <div class="flex gap-5">
+              <div class="flex flex-col lg:flex-row lg:gap-5 gap-4">
                 <div>
                   <h2 class="text-[18px] font-extrabold text-base-color">
                     Price - $30.00
